@@ -9,6 +9,7 @@ public class OrderProduct {
     private String productId;   //商品编码
     private double price;       //单价
     private double quantity;    //数量
+    private String plannedDeliveryTime; //计划到货时间
 
     public OrderProduct(){}
 
@@ -42,5 +43,13 @@ public class OrderProduct {
 
     public void setQuantity(double quantity) {
         this.quantity = quantity;
+    }
+
+    public String getPlannedDeliveryTime() {
+        return plannedDeliveryTime;
+    }
+
+    public void setPlannedDeliveryTime(String plannedDeliveryTime) {
+        this.plannedDeliveryTime = plannedDeliveryTime;
     }
 }

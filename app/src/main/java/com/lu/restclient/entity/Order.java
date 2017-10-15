@@ -13,7 +13,6 @@ public class Order {
     private String candidateSupplier;//候选供应商
     private String comment;         //备注
     private String attachments;     //附件
-    private String plannedDeliveryTime;//计划到货时间
 
     public Order(){}
     public String getOrderId() {
@@ -72,11 +71,4 @@ public class Order {
         this.attachments = attachments;
     }
 
-    public String getPlannedDeliveryTime() {
-        return plannedDeliveryTime;
-    }
-
-    public void setPlannedDeliveryTime(String plannedDeliveryTime) {
-        this.plannedDeliveryTime = plannedDeliveryTime;
-    }
 }
