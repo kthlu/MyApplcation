@@ -24,7 +24,9 @@ public class WebService {
     //private static final String WEB_ROOT = "http://10.200.151.42:8080/JerSeyServer/rest/restService/";
     //                                      http://10.200.151.42:8080/JerSeyService/rest/restService/login
     //                                      http://10.200.151.42:8080/JerSeyService/rest/restService/
-    private static final String WEB_ROOT = "http://192.168.3.4:8080/pws/webapi/staffService/";
+    //private static final String WEB_ROOT = "http://192.168.3.4:8080/pws/webapi/staffService/";
+    private static final String WEB_ROOT = "http://106.15.193.209:8080/pws/webapi/staffService/";
+    //private static final String WEB_ROOT = "http://10.200.151.42:8080/pws/webapi/staffService/";
     private static final String LOGIN = "login";
     private static final String GET_ALL_USERS = "getAllUsers";
     private static final String GET_ALL_STAFF = "getAllStaff";
